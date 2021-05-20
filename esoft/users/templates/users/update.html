@@ -1,5 +1,6 @@
 {% extends "users/base.html" %}
 {% load static %}
+{% load crispy_forms_tags %}
 
 {% block title %}Atualização{% endblock %}
 
@@ -9,7 +10,8 @@
 <div class="offset-1 col-10 list-div">
     <form method="POST">
         {% csrf_token %}
-        {{form.as_p}}
+        <!-- {{form.as_p}} -->
+        {{form|crispy}}
     
     <button type="submit" class="btn btn-success">Salvar</button>
     <button type="button" class="btn btn-danger"onclick="location.href='../../{{ BASE_URL }}list/'">Cancelar</button>
