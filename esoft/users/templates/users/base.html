@@ -16,10 +16,10 @@
 <body>
     <div class="container-fluid">
         <nav class="offset-1 col-10 navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
+            <div class="navbar-brand" href="#">
             <img src="{% static 'img/logo.jpeg' %}" width="30" height="30" class="d-inline-block align-top" alt="">
             {% block header %}{% endblock %}
-            </a>
+            </div>
         </nav>
     {% block content%}{% endblock%}
 

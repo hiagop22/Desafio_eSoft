@@ -1,0 +1,22 @@
+{% extends "users/base.html" %}
+{% load static %}
+
+{% block title %}Novo Cadastro{% endblock %}
+
+{% block header %}Novo Cadastro{% endblock%}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+    
+    <button type="submit" class="btn btn-success">Adicionar</button>
+    <button type="button" class="btn btn-danger"onclick="location.href='{{ BASE_URL }}list/'">Cancelar</button>
+    </form>
+    
+
+    </div>
+
+
+{% endblock %}

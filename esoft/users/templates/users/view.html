@@ -1,0 +1,33 @@
+{% extends "users/base.html"%}
+
+{% block title %} Descrição {% endblock %}
+
+{% block header %}Descrição{% endblock%}
+
+{% block content%} 
+<div class="offset-1 col-10 list-div">
+<!-- <h1>{{user.name}}</h1>
+<p>{{user.surname}}</p> -->
+
+<div class="card" >
+    <div class="card-body">
+        <h5 class="card-title">{{user.name}}</h5>
+        <span class="card-subtitle mb-2 text-muted">Sobrenome: </span>
+        <span class="card-text">{{user.surname}}</span>
+        <br>
+        <span class="card-subtitle mb-2 text-muted">Idade: </span>
+        <span class="card-text">{{user.age}} anos</span>
+        <br>
+        <span class="card-subtitle mb-2 text-muted">Nascimento: </span>
+        <span class="card-text">{{user.birth_date}}</span>
+        <br>
+        <span class="card-subtitle mb-2 text-muted">E-mail: </span>
+        <span class="card-text">{{user.email}}</span>
+        <br>
+    </div>
+  </div>
+  <button type="button" class="btn btn-danger cancel-btn"onclick="location.href='../../{{ BASE_URL }}list/'">Voltar</button>
+</div>
+
+
+{% endblock%}

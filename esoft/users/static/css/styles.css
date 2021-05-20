@@ -61,3 +61,18 @@
 .fas.fa-edit{
     color: #13c43f;
 }
+
+/* Cancel Buttom */
+.cancel-btn{
+    margin-top: 5px;
+}
+
+
+/* Messages */
+ul.messages {
+    padding: 0;
+}
+
+ul.messages li{
+    list-style: none;
+}
