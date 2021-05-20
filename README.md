@@ -1,5 +1,5 @@
 ## Desafio eSoft ##
-O sistema visa realizar o gerenciamento de novos usuários, assim como descrito 
+O sistema visa realizar o gerenciamento de novos usuários, assim como descrito na [especificação](https://github.com/hiagop22/Desafio_eSoft/blob/master/teste_pratico_django%202.pdf).
 O sistema foi desenvolvido utilizando-se as exigências descritas logo abaixo.
 
 > Ubuntu e derivados:
