@@ -1,0 +1,41 @@
+{% extends "users/base.html" %}
+{% load static %}
+
+{% block title %}Lista de cadastrados{% endblock %}
+
+{% block header %}Lista de Cadastrados{% endblock%}
+
+{% block content %}
+
+<div class="offset-1 col-10 list-div">
+    <a id="add-link" href="#">
+        <div class="col-2 add-div">
+            <i class="fas fa-plus"></i>cadastrar
+        </div>
+    </a>
+
+
+    <ul class="list-group">
+        
+        <li class="list-group-item list-group-item-action">
+            <a href="#" id="add-link" class="list-link">Dapibus ac facilisis in</a>
+            <a href="#" class="delete-btn"><span><i class="fas fa-trash"></i></span></a>
+            <a href="#"><span><i class="fas fa-edit"></i></span></a>
+        </li>
+        
+        <li class="list-group-item list-group-item-action">
+            <a href="#" id="add-link" class="list-link">Dapibus ac facilisis in</a>
+            <a href="#" class="delete-btn"><span><i class="fas fa-trash"></i></span></a>
+            <a href="#"><span><i class="fas fa-edit"></i></span></a>
+        </li>
+
+        <li class="list-group-item list-group-item-action">
+            <a href="#" id="add-link" class="list-link">Dapibus ac facilisis in</a>
+            <a href="#" class="delete-btn"><span><i class="fas fa-trash"></i></span></a>
+            <a href="#"><span><i class="fas fa-edit"></i></span></a>
+        </li>
+    </ul>
+
+</div>
+
+{% endblock %}

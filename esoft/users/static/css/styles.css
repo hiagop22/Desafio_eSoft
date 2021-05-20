@@ -1,0 +1,63 @@
+.container-fluid{
+    padding: 0;
+}
+
+.d-inline-block{
+    border-radius: 50%;
+}
+
+.navbar{
+    margin-bottom: 8px;
+}
+
+/* Add buttom */
+#add-link{
+    text-decoration: none;
+}
+
+.add-div{
+    background-color: #3476e2;
+    color: #fff;
+   
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.fas.fa-plus{
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/* List */
+.list-group{
+    padding-top: 10px;
+}
+
+.list-link{
+    /* color: #212529; */
+    color: #50565c;
+}
+
+.list-link:hover{
+    color: #50565c;
+}
+
+.list-group-item-action{
+    text-decoration: none;
+}
+
+.fas.fa-trash, .fas.fa-edit{
+    margin: 5px;
+    font-size: 15px;
+    float: right;
+}
+
+.fas.fa-trash{
+    color: #db1e47;
+}
+
+.fas.fa-edit{
+    color: #13c43f;
+}
